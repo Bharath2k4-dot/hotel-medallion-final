@@ -1,0 +1,10 @@
+      run_id      |     step     |      dataset       | status  |                                                  message                                                  |         started_at         
+------------------+--------------+--------------------+---------+-----------------------------------------------------------------------------------------------------------+----------------------------
+ 20260118T202321Z | build_silver | silver_layer       | success | rejected_rows_this_run=0; room_types=200; hotels=50; payments=50000; bookings=72450; room_inventory=50000 | 2026-01-19 01:53:24.365963
+ 20260118T200207Z | load_bronze  | room_inventory_raw | success | Loaded 50000 rows into bronze.room_inventory_raw from bronze_inputs/room_inventory_raw.csv                | 2026-01-18 20:02:40.415205
+ 20260118T200207Z | load_bronze  | payments_raw       | success | Loaded 50000 rows into bronze.payments_raw from bronze_inputs/payments_raw.csv                            | 2026-01-18 20:02:36.871636
+ 20260118T200207Z | load_bronze  | bookings_raw       | success | Loaded 72450 rows into bronze.bookings_raw from bronze_inputs/bookings_raw.csv                            | 2026-01-18 20:02:32.336171
+ 20260118T200207Z | load_bronze  | room_types_raw     | success | Loaded 50000 rows into bronze.room_types_raw from bronze_inputs/room_types_raw.csv                        | 2026-01-18 20:02:14.902295
+ 20260118T200207Z | load_bronze  | hotels_raw         | success | Loaded 50000 rows into bronze.hotels_raw from bronze_inputs/hotels_raw.csv                                | 2026-01-18 20:02:11.06468
+(6 rows)
+
